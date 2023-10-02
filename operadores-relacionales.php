@@ -12,17 +12,18 @@ $d = 2;
 // var_dump( $a == $b2 );
 
 // === Idéntico
-
-/* var_dump( $a === $b );
-var_dump( $a === $b2 ); */
-
+/*
+var_dump( $a === $b );
+var_dump( $a === $b2 ); 
+*/
 // != Diferente
-// var_dump( $a != $b );
-// var_dump( $a != $b2 );
+//var_dump( $a != $b );
+//var_dump( $a != $b2 );
 
 // !== Diferente
-/* var_dump( $a !== $b );
-var_dump( $a !== $b2 ); */
+ /*var_dump( $a !== $b );
+var_dump( $a !== $b2 ); 
+*/
 
 // < Menor que
 /* var_dump( $a < $b );
@@ -35,10 +36,10 @@ var_dump( $c > $b );
 var_dump( $d > $b ); */
 
 // >= Mayor o igual que
-
-/* var_dump( $a >= $b );
+/*
+var_dump( $a >= $b );
 var_dump( $c >= $b );
-var_dump( $d >= $b ); */
+var_dump( $d >= $b );*/ 
 
 // <= Menor o igual que
 
@@ -46,12 +47,13 @@ var_dump( $d >= $b ); */
 var_dump( $c <= $b );
 var_dump( $d <= $b ); */
 
-// <=> Nave espacial
-
-// echo 2 <=> 1; // 1
-// echo 1 <=> 1; // 0
-// echo -50 <=> 1; // -1
-
+// <=> Nave espacial si el numero de la derecha es mayor va mostrar un resultado menos 1 
+/*echo 2 <=> 1 ; // 1
+echo "\n";
+echo 1 <=> 1 ; // 0
+echo "\n";
+echo -50 <=> 1; // -1
+*/
 // ?? Fusión de null
 
 $edad_de_pepito = 23;
